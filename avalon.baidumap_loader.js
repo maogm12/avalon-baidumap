@@ -13,6 +13,9 @@ define(['jquery'],function($) {
             baidu_maps_loaded_def.resolve(google.maps);
         };
 
+        // From http://api.map.baidu.com/api?v=2.0&ak=xxx
+        window.BMap_loadScriptTime = (new Date()).getTime();
+
         var key = "the key";
         require(["http://api.map.baidu.com/getscript?v=2.0&ak=" + key + "&services=&t=20141204161725&noext"],
             function(){

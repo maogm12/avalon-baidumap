@@ -3,8 +3,6 @@
  * maogm12@gmail.com
  */
 
-window.BMap_loadScriptTime = (new Date).getTime();
-
 define([
     "avalon",
     "./avalon.baidumap_loader"
