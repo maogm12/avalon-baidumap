@@ -18,7 +18,7 @@ Be sure to config the access key in `avalon.baidumap_loader.js` before using
 </div>
 ```
 
-```javacsript
+```javascript
 require(['avalon', 'path/to/avalon.baidumap'], function(avalon){
     avalon.define("demo", function(vm){
         vm.baidumap = {
